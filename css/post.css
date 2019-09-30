@@ -1,8 +1,11 @@
+/* root for main-content-margin & color for the Edit and Like button */
 :root{
     --main-content-margin:24px;
     --postpage-button-color:#F02875;
     --inter-element-margin:12px;
 }
+
+/* Styles for the blog title */
 .blogTite {
     font-size: 150%;
     font-family: 'Abel', sans-serif;
@@ -11,11 +14,15 @@
     text-align: center;
     margin-bottom:8px;
 }
+
+/* Styles for the blog Text */
 .blogText {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
     text-align-last:initial;
 }
+
+/* Styles for the blog Author */
 .blogAuthor {
     padding: 0px 0px 0px 0px;
     font-family: 'Niconne', cursive;
@@ -26,13 +33,14 @@
     text-align: justify;
     
 }
+/* Margin set for the blog content */
 .blogContent{
 margin:var(--main-content-margin);
 }
 
 /* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
 
-
+/* Styles for the Like and Edit buttons */
 .postPageButton{
     background-color: rgb(217, 83, 79);
     border:none;
